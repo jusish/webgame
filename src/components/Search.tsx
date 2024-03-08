@@ -26,8 +26,12 @@ const Search = () => {
   return (
     <SearchBar sx={{ display: "flex", color: "gray" }}>
       <StyledInputBase placeholder="Enter email address" />
-      <Button variant="text" color="primary" sx={{ bgcolor: "#FA8305" }}>
-        <SearchIcon />
+      <Button
+        variant="text"
+        color="primary"
+        sx={{ bgcolor: "#FA8305", margin: 0.5 }}
+      >
+        <SearchIcon style={{ fill: "white" }} />
       </Button>
     </SearchBar>
   );
