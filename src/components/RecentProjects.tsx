@@ -32,33 +32,33 @@ const RecentProjects = () => {
         marginTop={5}
       >
         <img
-          src="/public/Rectangle 15.png"
+          src="/Rectangle 15.png"
           alt="project 1"
           style={{ maxWidth: "300px" }}
         />
         <img
-          src="/public/Rectangle 16.png"
+          src="/Rectangle 16.png"
           alt="project 2"
           style={{ maxWidth: "300px" }}
         />
         <img
-          src="/public/Rectangle 17.png"
+          src="/Rectangle 17.png"
           alt="project 3"
           style={{ maxWidth: "300px" }}
         />
         <img
-          src="/public/Rectangle 19.png"
+          src="/Rectangle 19.png"
           alt="project 5"
           style={{ maxWidth: "300px" }}
         />
         <img
-          src="/public/Rectangle 18.png"
+          src="/Rectangle 18.png"
           alt="project 4"
           style={{ maxWidth: "300px" }}
         />
 
         <img
-          src="/public/Rectangle 20.png"
+          src="/Rectangle 20.png"
           alt="project 6"
           style={{ maxWidth: "300px" }}
         />
