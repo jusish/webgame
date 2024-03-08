@@ -10,7 +10,7 @@ const Hero = () => {
         justifyItems={"center"}
         alignItems={"center"}
         marginLeft={20}
-        marginRight={10}
+        marginRight={1}
         gap={5}
       >
         <Box>
@@ -49,16 +49,28 @@ const Hero = () => {
           display={"flex"}
           flexDirection={"row"}
           justifyContent={"space-between"}
-          marginBottom={5}
+          marginLeft={20}
+          marginRight={20}
+          marginTop={5}
         >
-          <Typography variant="h5">Currently Trending Games</Typography>
-          <button>SEE ALL</button>
+          <Typography variant="h5" fontWeight={"bold"}>
+            Currently Trending Games
+          </Typography>
+          <Typography
+            variant="button"
+            color="white"
+            bgcolor={"gray"}
+            textAlign={"center"}
+            padding={1}
+            borderRadius={1}
+            fontWeight={"bold"}
+          >
+            <button>SEE ALL</button>
+          </Typography>
         </Box>
-        <Box display={"flex"} flexDirection={"row"} flexWrap={"wrap"}></Box>
-        <Trending />
-        <Trending />
-        <Trending />
-        <Trending />
+        <Box display={"flex"} flexDirection={"row"} flexWrap={"wrap"}>
+          <Trending />
+        </Box>
       </Box>
     </Box>
   );
