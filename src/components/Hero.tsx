@@ -63,8 +63,8 @@ const Hero = () => {
             textAlign={"center"}
             paddingX={2}
             paddingY={1}
-            borderRadius={2}
-            fontWeight={"sem_bold"}
+            borderRadius={1}
+            fontWeight={"bold"}
             sx={{ fontSize: "10px" }}
           >
             <button>SEE ALL</button>
