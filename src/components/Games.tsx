@@ -11,12 +11,20 @@ const Games = () => {
       gap={2}
       marginTop={10}
       marginX={20}
+      bgcolor={"#1C140F"}
+      padding={5}
+      borderRadius={5}
     >
-      <Typography variant="h5" color="white">
+      <Typography variant="h5" color="white" width={"70%"} textAlign={"center"}>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry.
       </Typography>
-      <Typography variant="body1" color="white">
+      <Typography
+        variant="body1"
+        color="white"
+        width={"60%"}
+        textAlign={"center"}
+      >
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
         since the 1500s,
