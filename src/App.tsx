@@ -1,7 +1,7 @@
 import "./App.css";
-import Hero from "./components/Hero";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
+import Home from "./components/Home";
 
 const darkTheme = createTheme({
   palette: {
@@ -13,8 +13,8 @@ function App() {
   return (
     <>
       <ThemeProvider theme={darkTheme}>
-      <CssBaseline />
-        <Hero />
+        <CssBaseline />
+        <Home />
       </ThemeProvider>
     </>
   );
