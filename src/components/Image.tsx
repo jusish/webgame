@@ -11,7 +11,7 @@ const Image = () => {
         industry. Lorem Ipsum has been the industry's standard dummy text ever
         since the 1500s,
       </Typography>
-      <img src="/public/Rectangle 4.png" alt="Spiderman" />
+      <img src="/Rectangle 4.png" alt="Spiderman" />
     </Box>
   );
 };
