@@ -3,15 +3,17 @@ import CardMedia from "@mui/material/CardMedia";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import LocalFireDepartmentOutlinedIcon from "@mui/icons-material/LocalFireDepartmentOutlined";
-export default function GameCard() {
+import React from "react";
+
+interface GameCardProps {
+  image: string;
+  numberOfFollowers: number;
+}
+
+const GameCard: React.FC<GameCardProps> = ({ image, numberOfFollowers }) => {
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        height="194"
-        image="/public/Rectangle 24.png"
-        alt="Paella dish"
-      />
+    <Card sx={{ maxWidth: 200, borderRadius: 5 }}>
+      <CardMedia component="img" height="194" image={image} alt="Paella dish" />
       <CardContent
         sx={{
           display: "flex",
@@ -22,9 +24,11 @@ export default function GameCard() {
       >
         <LocalFireDepartmentOutlinedIcon />
         <Typography variant="body2" color="text.secondary">
-          20 Followers
+          {numberOfFollowers} Followers
         </Typography>
       </CardContent>
     </Card>
   );
-}
+};
+
+export default GameCard;
