@@ -2,6 +2,7 @@ import { Box } from "@mui/material";
 import Hero from "./Hero";
 import Lorem from "./Lorem";
 import Image from "./Image";
+import Games from "./Games";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Hero />
       <Lorem />
       <Image />
+      <Games />
     </Box>
   );
 };
