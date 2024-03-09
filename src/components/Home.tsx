@@ -5,6 +5,7 @@ import Image from "./Image";
 import Games from "./Games";
 import RecentProjects from "./RecentProjects";
 import StayInLoop from "./StayInLoop";
+import FooterComp from "./FooterComp";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Games />
       <RecentProjects />
       <StayInLoop />
+      <FooterComp />
     </Box>
   );
 };
