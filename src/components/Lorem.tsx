@@ -12,7 +12,7 @@ const Lorem = () => {
       maxWidth={600}
       margin={2}
     >
-      <Typography variant="h4" color="white">
+      <Typography sx={{ fontSize: "32px", fontWeight: "bold" }} color="white">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry.
       </Typography>
