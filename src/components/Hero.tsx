@@ -7,7 +7,7 @@ const Hero = () => {
       <Box
         display={"flex"}
         flexDirection={"row"}
-        justifyItems={"center"}
+        justifyContent={"space-between"}
         alignItems={"center"}
         marginLeft={20}
         marginRight={1}
@@ -15,17 +15,22 @@ const Hero = () => {
       >
         <Box>
           <Typography
-            variant="h6"
-            sx={{ marginBottom: 2, color: "#FA8305", fontWeight: "bold" }}
+            sx={{
+              marginBottom: 2,
+              color: "#FA8305",
+              fontWeight: "bold",
+              fontSize: "15px",
+            }}
           >
             3D game Dev
           </Typography>
-          <Typography variant="h2">
-            Work that we produce for our clients
+          <Typography sx={{ fontSize: "40px", fontWeight: "bold" }}>
+            Work that we produce for <br />
+            our clients
           </Typography>
-          <Typography variant="h6">
+          <Typography sx={{ fontSize: "16px", fontWeight: "normal" }}>
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard.
+            industry. <br /> Lorem Ipsum has been the industry's standard.
           </Typography>
           <Button
             sx={{
@@ -40,7 +45,7 @@ const Hero = () => {
             Get more Details
           </Button>
         </Box>
-        <Box>
+        <Box maxWidth={"400px"}>
           <img src="/joy_stick 1.png" alt="joystick" />
         </Box>
       </Box>
@@ -53,7 +58,7 @@ const Hero = () => {
           marginRight={20}
           marginTop={5}
         >
-          <Typography variant="h5" fontWeight={"bold"}>
+          <Typography variant="h5" fontWeight={"semi-bold"} fontSize={"20px"}>
             Currently Trending Games
           </Typography>
           <Typography
