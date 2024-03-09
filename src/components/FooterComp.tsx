@@ -48,7 +48,8 @@ const FooterComp = () => {
             </Footer.LinkGroup>
           </div>
         </div>
-        <div className="w-full px-4 py-6 bg-gray-700 sm:flex sm:items-center sm:justify-between">
+        <hr />
+        <div className="w-full px-4 py-6 bg-black sm:flex sm:items-center sm:justify-between">
           <Footer.Copyright href="#" by="GameP™" year={2024} />
           <div className="flex mt-4 space-x-6 sm:mt-0 sm:justify-center">
             <Footer.Icon href="#" icon={BsFacebook} />
