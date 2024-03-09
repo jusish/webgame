@@ -10,10 +10,10 @@ const StayInLoop = () => {
       gap={3}
       marginBottom={2}
     >
-      <Typography variant="h4" color="white">
+      <Typography sx={{ fontSize: "20px", fontWeight: "bold" }} color="white">
         Lorem Ipsum
       </Typography>
-      <Typography variant="body1" color="white" width={"60%"}>
+      <Typography sx={{ fontSize: "16px" }} color="white" width={"60%"}>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
         since the 1500s,
@@ -24,11 +24,14 @@ const StayInLoop = () => {
         bgcolor={"#1C140F"}
         padding={5}
         borderRadius={3}
-        justifyContent={"center"}
+        justifyContent={"space-between"}
         alignItems={"center"}
       >
         <Box gap={1} display={"flex"} flexDirection={"column"}>
-          <Typography variant="h6" sx={{ fontWeight: "bold" }} color="white">
+          <Typography
+            sx={{ fontWeight: "bold", fontSize: "20px" }}
+            color="white"
+          >
             Stay in the loop
           </Typography>
           <Typography
